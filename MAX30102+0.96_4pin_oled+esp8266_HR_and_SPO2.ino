@@ -25,7 +25,7 @@
 U8G2_SSD1306_128X64_NONAME_F_SW_I2C u8g2(U8G2_R0, /* clock=*/ SCL, /* data=*/ SDA, /* reset=*/ U8X8_PIN_NONE);
 //U8G2_SSD1306_128X64_NONAME_F_SW_I2C u8g2(U8G2_R0, /* clock=*/ D5, /* data=*/ D6, /* reset=*/ U8X8_PIN_NONE);
 // Interrupt pin
-const byte oxiInt = D0; // pin connected to MAX30102 INT
+const byte oxiInt = 16; // pin connected to MAX30102 INT
 
 uint32_t elapsedTime, timeStart;
 
